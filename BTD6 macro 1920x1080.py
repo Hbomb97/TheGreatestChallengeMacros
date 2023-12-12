@@ -5,7 +5,7 @@ import time
 #runs 25 times
 for x in range(0, 25):
     pyautogui.click(960, 850)
-    time.sleep(2)
+    time.sleep(3)
     pyautogui.click(1830, 175)
     pyautogui.click(675, 550)
     pyautogui.click(675, 550)
@@ -18,5 +18,5 @@ for x in range(0, 25):
     time.sleep(1.5)
     pyautogui.click(960, 875)
     time.sleep(.5)
-    pyautogui.click(960, 850)
+    pyautogui.click(718, 850)
     time.sleep(2)
